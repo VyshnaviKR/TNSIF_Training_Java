@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding;
+package org.tnsif.acc.c2tc.methodoverriding_super_this;
 class Payment
 {
 	void makePayment()
@@ -22,7 +22,7 @@ class CardPayment extends Payment
 }
 class WalletPayment extends Payment
 {
-	void makePyament()
+	void makePayment()
 	{
 		System.out.println("Payment made using WalletPayment ");
 	}
